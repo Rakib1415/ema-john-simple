@@ -1,11 +1,10 @@
 import React from 'react';
-import { useAuth } from '../Login/UseAuth';
+
 
 
 
 const Cart = (props) => {
     const cart = props.cart;
-    const auth = useAuth();
     // console.log(auth.user);
 
    let total = 0;
